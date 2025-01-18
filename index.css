@@ -1,109 +1,79 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center; /* Konten di tengah */
-    justify-content: flex-start; /* Mulai dari atas */
+/* Mengatur margin dan padding untuk semua elemen */
+* {
     margin: 0;
     padding: 0;
-}
-
-/* Container konten */
-.container {
+    box-sizing: border-box;
+  }
+  
+  /* Mengatur font dan background umum */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Mengatur container utama */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    margin: 10px;
-    width: 100%;
-    max-width: 1200px; /* Batas lebar biar nggak terlalu lebar */
-    align-items: center;
-}
-
-/* Header */
-.header-container img {
-    width: 250px;
-    height: auto;
-    margin-bottom: 50px;
-    justify-content: left;
-}
-
-/* Body 1 */
-.body1 {
-    background-color: #407BFF;
-    margin: 10px;
-    justify-content: center;
-    text-align: left;
-}
-
-.body1 h2 {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    text-align: left;
-}
-
-.body1 p {
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 50px;
-}
-
-/* Code */
-.code {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
     text-align: center;
-}
-
-/* Link */
-a {
-    color: #06c;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Body 2 */
-.body2 p {
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 60px;
-}
-
-.body2 img {
-    width: 50px;
+  }
+  
+  /* Mengatur header-container dan logo */
+  .header-container img {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+  }
+  
+  /* Mengatur judul dan isi teks */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Mengatur background biru lembut untuk bagian verification code */
+  .container h2, .container p {
+    background-color: #E0F0FF;
+    padding: 20px;
+  }
+  
+  /* Mengatur jarak dan penataan untuk .code */
+  .code {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Mengatur jarak dan background untuk bagian 'If you didn't make this request' */
+  .container p:last-of-type {
+    background-color: #E0F0FF;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Mengatur gambar dengan kelas 'frame' */
+  .frame {
+    float: right;
+    margin-top: 35px;
+    width: auto;
     height: auto;
-    margin-bottom: 30px;
-}
-
-/* Footer Tetap di Bawah */
-footer {
-    background-color: #000; /* Latar belakang hitam */
+  }
+  
+  /* Mengatur footer */
+  footer {
+    background-color: #000;
     padding: 20px 0;
-    text-align: center;
-    width: 100%;
-    margin-top: auto; /* Dorong footer ke bawah */
-}
-
-/* Isi Footer */
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer img {
+  }
+  
+  .footer img {
+    display: block;
+    margin: 0 auto;
     width: 100px;
     height: auto;
-    transition: transform 0.3s ease;
-}
-
-.footer img:hover {
-    transform: scale(1.2);
-}
-
-/* Supaya halaman penuh */
-html, body {
-    height: 100%;
-    margin: 0;
-}
+  }
+  

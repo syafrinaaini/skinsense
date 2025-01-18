@@ -11,10 +11,17 @@
 .header-container img{
     width: 250px;
     margin-right: 15px;
-    justify-items: left;
-}
-.container h2, .container p {
-    justify-items: left;
+    justify-items: center;
     text-align: left;
-    background-color: #E0F0FF;
 }
+.verification-code-section {
+    background-color: #E0F0FF; /* Background biru lembut */
+    padding: 20px; /* Memberikan jarak di dalam kontainer */
+  }
+  
+  .verification-code-section h2,
+  .verification-code-section p {
+    margin-bottom: 15px; /* Memberikan jarak antara elemen-elemen dalam section */
+    color: #333; /* Warna teks yang kontras */
+  }
+  

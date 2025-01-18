@@ -15,13 +15,13 @@
     text-align: left;
 }
 .verification-code-section {
-    background-color: #E0F0FF; /* Background biru lembut */
-    padding: 20px; /* Memberikan jarak di dalam kontainer */
+    background-color: #E0F0FF;
+    justify-content: center;
   }
   
   .verification-code-section h2,
   .verification-code-section p {
-    margin-bottom: 15px; /* Memberikan jarak antara elemen-elemen dalam section */
-    color: #333; /* Warna teks yang kontras */
+    margin-bottom: 15px; 
+    color: #333;
   }
   

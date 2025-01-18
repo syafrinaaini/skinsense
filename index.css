@@ -9,24 +9,26 @@ body {
 
 .container {
     padding: 20px;
+    margin: 27px;
  }
 
 .header-container img {
     width: 300px;
     height: auto;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: black;
     text-align: left;
 }
 p {
     text-align: left;
     font-size: 20px;
     text-align: left;
+    margin-bottom: 50px;
 }
 .code {
     font-size: 40px;

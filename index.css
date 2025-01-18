@@ -17,6 +17,7 @@ body {
 .header-container img {
     width: 60px;
     height: auto;
+    margin-bottom: 125;
 }
 
 h2 {

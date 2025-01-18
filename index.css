@@ -24,4 +24,12 @@
     margin-bottom: 15px; 
     color: #333;
   }
-  
+  .help-centre {
+    background-color: #E0F0FF;
+    justify-content: center;
+  }
+  .help-centre p, .help-centre img {
+    margin-bottom: 15px; 
+    color: #333;
+    
+  }

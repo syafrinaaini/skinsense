@@ -17,6 +17,7 @@
 .verification-code-section {
     background-color: #E0F0FF;
     justify-content: center;
+    padding:30px;
   }
   
   .verification-code-section h2,
@@ -27,9 +28,10 @@
   .help-centre {
     background-color: #E0F0FF;
     justify-content: center;
+    padding: 30px;
   }
   .help-centre p, .help-centre img {
     margin-bottom: 15px; 
     color: #333;
-    
+
   }

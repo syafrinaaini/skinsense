@@ -3,14 +3,6 @@ body{
     padding: 0;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    gap: 15px;
-    padding: 20px;
-}
-
 .header-container img {
     width: 100px;
     height: auto;

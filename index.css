@@ -43,11 +43,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.body-container img {
+.container img {
     width: 50px;
     height: auto;
     margin-bottom: 50px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 /* Footer Tetap di Bawah */
@@ -60,22 +60,16 @@ footer {
     bottom: 0;
 }
 
-/* Flexbox untuk gambar */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Jarak antar ikon */
 }
-
-/* Ukuran dan efek hover gambar */
 .footer img {
     width: 40px;
-    height: 40px;
+    height: auto;
     transition: transform 0.3s ease;
 }
-
-/* Efek hover membesar */
 .footer img:hover {
     transform: scale(1.2);
 }

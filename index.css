@@ -4,25 +4,30 @@ body{
 }
 
 .header-container img {
-    width: 100px;
+    width: 60px;
     height: auto;
 }
 
-.header-container h1 {
-    margin: 0;
-    font-size: 32px;
-    color: black;
-}
-
-h2, h5, h5 {
+h2 {
     text-align: center;
-    margin: 15px 0;
-    font-size: 16px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+h5 {
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px; 
 }
 h2 {
     font-size: 40px;
     font-weight: bold;
     color: #333;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    margin-left: 40px;
+    font-size: 20px; 
 }
 link {
     a {

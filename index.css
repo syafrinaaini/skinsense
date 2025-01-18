@@ -21,14 +21,19 @@
   }
   
   /* Mengatur header-container dan logo */
-  .header-container img {
-    float: left;
-    margin-top: 20px;
+  .header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-bottom: 50px;
-    width: auto;
   }
   
-  /* Mengatur judul dan isi teks */
+  .header-container img {
+    width: auto;
+    height: 50px;
+  }
+  
+  /* Mengatur teks verification code */
   h2 {
     font-size: 24px;
     color: #333;
@@ -60,7 +65,7 @@
   .frame {
     float: right;
     margin-top: 35px;
-    width: auto;
+    width: 300px; /* Sesuaikan dengan ukuran gambar */
     height: auto;
   }
   
@@ -68,6 +73,7 @@
   footer {
     background-color: #000;
     padding: 20px 0;
+    margin: center;
   }
   
   .footer img {

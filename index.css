@@ -1,3 +1,8 @@
+.container {
+    justify-content: center;
+
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -6,4 +11,10 @@
 .header-container img{
     width: 250px;
     margin-right: 15px;
+    justify-items: left;
+}
+.container h2, .container p {
+    justify-items: left;
+    text-align: left;
+    background-color: #E0F0FF;
 }

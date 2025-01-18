@@ -12,27 +12,28 @@ body {
 }
 
 .header-container img {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin-bottom: 125;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: #333;
     margin-left: 10px 0;
 }
 
 p {
-    text-align: center;
-    font-size: 15px;
+    text-align: left;
+    font-size: 20px;
     margin-left: 10px 0;
 }
 .code {
     font-size: 40px;
     font-weight: bold;
     margin: center;
+    text-align: center;
 }
 
 a {
@@ -49,7 +50,7 @@ footer {
     color: white; /* Warna teks putih */
     text-align: center; /* Memusatkan teks */
     padding: 10px 0; /* Memberikan ruang di atas dan bawah footer */
-    position: relative;
+    position: fixed;
     width: 100%; /* Lebar footer mengikuti lebar halaman */
     bottom: 0;
 }

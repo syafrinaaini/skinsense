@@ -1,9 +1,8 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh; /* Konten minimal 1 layar penuh */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
@@ -50,28 +49,37 @@ a:hover {
     margin-bottom: 50px;
     margin-right: 50px;
 }
-/* Style Umum Footer */
+
+/* Footer Tetap di Bawah */
 footer {
     background-color: #000; /* Latar belakang hitam */
     padding: 20px 0;
     text-align: center;
+    width: 100%;
+    position: relative; /* Agar footer mengikuti konten */
+    bottom: 0;
 }
+
+/* Flexbox untuk gambar */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px; /* Jarak antar ikon */
 }
+
+/* Ukuran dan efek hover gambar */
 .footer img {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
 }
+
+/* Efek hover membesar */
 .footer img:hover {
-    transform: scale(1.2); /* Membesar saat di-hover */
+    transform: scale(1.2);
 }
-@media (max-width: 600px) {
-    .footer img {
-        width: 30px;
-        height: 30px;
-    }
+html, body {
+    height: 100%;
+    margin: 0;
 }

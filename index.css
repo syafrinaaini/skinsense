@@ -34,7 +34,7 @@ p {
 .code {
     font-size: 50px;
     font-weight: bold;
-    margin-top: 20px;
+    margin: center;
 }
 
 a {
@@ -44,4 +44,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: #000; /* Warna latar belakang hitam */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Memusatkan teks */
+    padding: 10px 0; /* Memberikan ruang di atas dan bawah footer */
+    position: relative;
+    width: 100%; /* Lebar footer mengikuti lebar halaman */
+    bottom: 0;
 }

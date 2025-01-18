@@ -1,8 +1,9 @@
 body {
-    min-height: 100vh; /* Konten minimal 1 layar penuh */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: left;
+    justify-content: center;
 }
 
 .container {
@@ -28,7 +29,6 @@ body {
     text-align: left;
 }
 .body1 p {
-    text-align: left;
     font-size: 20px;
     text-align: left;
     margin-bottom: 60px;
@@ -49,7 +49,6 @@ a:hover {
     text-decoration: underline;
 }
 .body2 p {
-    text-align: left;
     font-size: 20px;
     text-align: left;
     margin-bottom: 60px;
@@ -62,7 +61,7 @@ a:hover {
 
 /* Footer Tetap di Bawah */
 footer {
-    min-height: 100px; /* Tinggi minimal */
+    min-height: 150px; /* Tinggi minimal */
     background-color: #000; /* Latar belakang hitam */
     padding: 20px 0;
     text-align: center;
@@ -77,7 +76,7 @@ footer {
     align-items: center;
 }
 .footer img {
-    width: 80px;
+    width: 100px;
     height: auto;
     transition: transform 0.3s ease;
 }

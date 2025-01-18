@@ -82,7 +82,3 @@ footer {
 .footer img:hover {
     transform: scale(1.2);
 }
-html, body {
-    height: 100%;
-    margin: 0;
-}

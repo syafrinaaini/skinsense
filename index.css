@@ -1,8 +1,6 @@
-/* Body diatur jadi kolom biar konten dan footer tersusun vertikal */
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Susunan vertikal */
     align-items: center; /* Konten di tengah */
     justify-content: flex-start; /* Mulai dari atas */
     margin: 0;

@@ -18,7 +18,7 @@
 .header-container img{
     width: 250px;
     margin-right: 15px;
-    justify-items: center;
+    justify-items: left;
     text-align: left;
 }
 .verification-code-section {

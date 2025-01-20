@@ -1,10 +1,14 @@
 .container {
-    justify-content: center;
-    justify-items: center;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
+  display: flex;
+  flex-direction: column; /* Susun elemen secara vertikal */
+  justify-content: center; /* Pusatkan elemen secara vertikal */
+  align-items: center; /* Pusatkan elemen secara horizontal */
+  margin: 0;
+  padding: 0;
+  width: 100vw; /* Lebar penuh */
+  height: 100vh; /* Tinggi penuh */
 }
+
 
 .header-container {
     display: flex;

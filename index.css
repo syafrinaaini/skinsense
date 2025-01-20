@@ -1,47 +1,56 @@
 .container {
-  display: flex;
-  flex-direction: column; /* Susun elemen secara vertikal */
-  justify-content: center; /* Pusatkan elemen secara vertikal */
-  align-items: center; /* Pusatkan elemen secara horizontal */
-  margin: 0;
-  padding: 0;
-  width: 100vw; /* Lebar penuh */
-  height: 100vh; /* Tinggi penuh */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
 }
 
-
+/* Header Section */
 .header-container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.header-container img{
-    width: 250px;
-    margin-right: 15px;
-    justify-items: left;
-    text-align: left;
-}
-.verification-code-section {
-    background-color: #E0F0FF;
-    justify-content: center;
-    padding:30px;
-    width: 80px;
-    height: 150px;
-    margin: 0%;
-  }
-  
-  .verification-code-section h2,
-  .verification-code-section p {
-    margin-bottom: 15px; 
-    color: #333;
-  }
-  .help-centre {
-    background-color: #E0F0FF;
-    justify-content: center;
-    padding: 30px;
-  }
-  .help-centre p, .help-centre img {
-    margin-bottom: 15px; 
-    color: #333;
 
-  }
+.header-container img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Verification Code Section */
+.verification-code-section {
+  background-color: #E0F0FF;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.verification-code-section p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.verification-code-section .code {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin: 20px 0;
+}
+
+.verification-code-section a {
+  color: #0066CC;
+  text-decoration: none;
+}
+
+.verification-code-section a:hover {
+  text-decoration: underline;
+}
